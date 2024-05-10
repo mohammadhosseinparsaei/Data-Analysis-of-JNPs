@@ -1,4 +1,4 @@
-# Project Title
+# Data Analysis of Janus Nanoparticles (JNPs)
 
 In this project, we have studied and evaluated the effectiveness of Janus nanoparticles (JNPs) alongside other treatments. The data has been organized into structured formats, including text files (.txt) and comma-separated values files (.csv), to facilitate efficient analysis and interpretation.
 
