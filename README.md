@@ -32,6 +32,7 @@ In this project, we have studied and evaluated the effectiveness of Janus nanopa
 - SciPy 1.12.0
 - Statsmodels 0.14.0 
 - Lifelines 0.28.0
+- Visual Studio Code (optional, but recommended for development)
 
 **Additional Notes:**
 -	Function Organization:
