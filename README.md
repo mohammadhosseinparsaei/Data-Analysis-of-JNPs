@@ -25,14 +25,13 @@ In this project, we have studied and evaluated the effectiveness of Janus nanopa
 ## Requirements
 
 - Python 3.11.7
-- Jupyter Notebook
+- Visual Studio Code with Jupyter Notebook extension
 - NumPy 1.24.3
 - Pandas 2.1.4
 - Matplotlib 3.8.4
 - SciPy 1.12.0
 - Statsmodels 0.14.0 
 - Lifelines 0.28.0
-- Visual Studio Code (optional, but recommended for development)
 
 **Additional Notes:**
 -	Function Organization:
