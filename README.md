@@ -22,6 +22,8 @@ In this project, we have studied and evaluated the effectiveness of Janus nanopa
 
 - `Survival Proportions Analysis`: Assessing the survival outcomes of different treatment groups over time.
 
+- `Western Blot Quantification`: Analyzing protein expression levels (Hsp70 and VEGF) normalized to beta-actin.
+
 ## Requirements
 
 - Python 3.11.7
@@ -60,7 +62,7 @@ File's Columns:
 -	Nanoparticle Concentration (mg/ml): Concentration of nanoparticles in milligrams per milliliter.
 -	Hemolysis1 (%), Hemolysis2 (%), Hemolysis3 (%): Hemolysis percentages from three repetitions at each concentration.
 
-The data in this file is for examining the extent of red blood cell lysis upon exposure to different concentrations of nanoparticles.
+The data in this file is used to examine the extent of red blood cell lysis upon exposure to different concentrations of nanoparticles.
 
 #### 3. **In vitro Cytotoxicity Assay Data:**
 File's name: `In vitro cytotoxicity assay.csv`
@@ -146,6 +148,7 @@ The data in this file is for plotting Kaplan-Meier survival curves, illustrating
 
 #### **10. Western Blot Quantification Data:**
 File names: `Hsp70_actin.csv`, `VEGF_actin.csv`
+
 File's Columns: Control, JNPs+MF, AMF, NIR, RT, PMT, JNPs+MF+AMF, JNPs+MF+NIR, JNPs+MF+RT, JNPs+MF+PMT, JNPs+MF+RT+PMT: Each column represents the quantification of protein expression (Hsp70 or VEGF) normalized to beta-actin for a specific treatment group. Each group has three repeated measurements.
 
 The data in these files is intended for analyzing the expression levels of Hsp70 and VEGF under various treatments to understand their role in therapeutic outcomes.
