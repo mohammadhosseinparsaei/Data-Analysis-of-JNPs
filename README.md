@@ -51,7 +51,7 @@ This file contains data from Dynamic Light Scattering (DLS) analysis. It was ini
 -	The remaining data includes:
 Diameter (nm), and Frequency (%)
 
-The data in this file is for investigating the size of nanoparticles.
+The data in this file is used to investigate the size of nanoparticles.
 
 #### **2. Hemolytic Toxicity Data:**
 File's name: `Hemolytic toxicity.csv`
@@ -69,7 +69,7 @@ File's Columns:
 -	Nanoparticle Concentration (mg/ml): Concentration of nanoparticles in milligrams per milliliter.
 -	Cell Viability1 (%), Cell Viability2 (%), Cell Viability3 (%): Cell viability percentages from three repetitions at each concentration.
 
-The data in this file is for investigating the cellular toxicity of nanoparticles at various concentrations.
+The data in this file is used to investigate the cellular toxicity of nanoparticles at various concentrations.
 
 #### **4. Cellular Internalization Data:**
 File's name: `Cellular internalization.csv`
@@ -79,7 +79,7 @@ File's Columns:
 -	Fe Concentration per Cell1 (pg), Fe Concentration per Cell2 (pg), Fe Concentration per Cell3 (pg): Concentrations of iron (Fe) per cell from three repetitions.
 -	Au Concentration per Cell1 (pg), Au Concentration per Cell2 (pg), Au Concentration per Cell3 (pg): Concentrations of gold (Au) per cell from three repetitions.
 
-The data in this file is for examining the extent of nanoparticle entry into cells at different concentrations.
+The data in this file is used to examine the extent of nanoparticle entry into cells at different concentrations.
 
 #### **5. Serum Biochemical Assay Data:**
 File's name: `Serum biochemical assay.csv`
@@ -99,7 +99,7 @@ File's Columns:
 -	Fe Concentration per Tissue1 (µg/g), Fe Concentration per Tissue2 (µg/g), Fe Concentration per Tissue3 (µg/g): Concentrations of iron (Fe) per tissue from three repetitions.
 -	Au Concentration per Tissue1 (µg/g), Au Concentration per Tissue2 (µg/g), Au Concentration per Tissue3 (µg/g): Concentrations of gold (Au) per tissue from three repetitions.
 
-The data in this file is for evaluating the dispersion of nanoparticles in different organs following their injection.
+The data in this file is used to evaluate the dispersion of nanoparticles in different organs following their injection.
 
 #### **7. Temperature Measurement Study Data:**
 File's name: `Temperature measurement study.csv`
@@ -113,7 +113,7 @@ File's Columns:
 -	PMT1 (°C), PMT2 (°C), PMT3 (°C): Temperature measurements under PMT treatment from three repetitions.
 -	JNPs+MF+PMT1 (°C), JNPs+MF+PMT2 (°C), JNPs+MF+PMT3 (°C): Temperature measurements under JNPs+MF+PMT treatment from three repetitions.
 
-The data in this file is for investigating temperature changes following various treatment methods.
+The data in this file is used to investigate temperature changes following various treatment methods.
 
 #### **8. Tumor Volume Data:**
 File's name: `Tumor volume.csv`
@@ -143,3 +143,10 @@ File's Columns:
 -	Dead(1)/Alive(0): Status indicator (0 for alive, 1 for dead).
 
 The data in this file is for plotting Kaplan-Meier survival curves, illustrating the survival proportions over time for different treatment groups.
+
+#### **10. Western Blot Quantification Data:**
+File names: `Hsp70_actin.csv`, `VEGF_actin.csv`
+File's Columns: Control, JNPs+MF, AMF, NIR, RT, PMT, JNPs+MF+AMF, JNPs+MF+NIR, JNPs+MF+RT, JNPs+MF+PMT, JNPs+MF+RT+PMT: Each column represents the quantification of protein expression (Hsp70 or VEGF) normalized to beta-actin for a specific treatment group. Each group has three repeated measurements.
+
+The data in these files is intended for analyzing the expression levels of Hsp70 and VEGF under various treatments to understand their role in therapeutic outcomes.
+
