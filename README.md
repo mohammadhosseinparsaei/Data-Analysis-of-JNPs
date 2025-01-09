@@ -20,9 +20,9 @@ In this project, we have studied and evaluated the effectiveness of Janus nanopa
 
 - `Tumor Volume Measurements`: Investigating the effect of nanoparticles on tumor growth.
 
-- `Survival Proportions Analysis`: Assessing the survival outcomes of different treatment groups over time.
+- `Survival Proportions`: Assessing the survival outcomes of different treatment groups over time.
 
-- `Western Blot Quantification`: Analyzing protein expression levels (Hsp70 and VEGF) normalized to beta-actin.
+- `Western Blot Results`: Analyzing protein expression levels (Hsp70 and VEGF) normalized to beta-actin.
 
 ## Requirements
 
