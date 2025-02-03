@@ -1,10 +1,8 @@
 # Data Analysis of Janus Nanoparticles (JNPs)
 
-In this project, we have studied and evaluated the effectiveness of Janus nanoparticles (JNPs) alongside other treatments. The data has been organized into structured formats, including text files (.txt) and comma-separated values files (.csv), to facilitate efficient analysis and interpretation.
+In this project, we have studied and evaluated the effectiveness of Janus nanoparticles (JNPs) alongside other treatments. The data has been organized into structured formats to facilitate efficient analysis and interpretation.
 
 ## Experimental Analyses Covered:
-
-- `Dynamic Light Scattering (DLS) Data`: Investigating the size of nanoparticles.
 
 - `Hemolytic Toxicity`: Assessing the potential toxicity of nanoparticles on blood cells.
 
@@ -42,20 +40,12 @@ Two additional functions, namely `comparison` and `survival`, have been develope
 
 -	File Importation Method:
 
-File names with their respective extensions (e.g., .csv, .txt) have been provided for data reading. It is assumed that the data files are located in the same directory as the main script. Adjustments to the file paths may be necessary if the data files are stored elsewhere.
+File names with their respective extensions have been provided for data reading. It is assumed that the data files are located in the same directory as the main script. Adjustments to the file paths may be necessary if the data files are stored elsewhere.
 
 ## Data Description
-We've got our data neatly saved in TXT and CSV files, all set for analysis. Each file comes with clear instructions on how to use them for our studies.
-#### **1. DLS Data:**
-File's name: `202302031519089.txt`
-Explanations:
-This file contains data from Dynamic Light Scattering (DLS) analysis. It was initially more comprehensive, but two specific types of data were extracted for separate analysis.
--	The remaining data includes:
-Diameter (nm), and Frequency (%)
+We've got our data neatly saved in CSV files, all set for analysis. Each file comes with clear instructions on how to use them for our studies.
 
-The data in this file is used to investigate the size of nanoparticles.
-
-#### **2. Hemolytic Toxicity Data:**
+#### **1. Hemolytic Toxicity Data:**
 File's name: `Hemolytic toxicity.csv`
 
 File's Columns:
@@ -64,7 +54,7 @@ File's Columns:
 
 The data in this file is used to examine the extent of red blood cell lysis upon exposure to different concentrations of nanoparticles.
 
-#### 3. **In vitro Cytotoxicity Assay Data:**
+#### 2. **In vitro Cytotoxicity Assay Data:**
 File's name: `In vitro cytotoxicity assay.csv`
 
 File's Columns:
@@ -73,7 +63,7 @@ File's Columns:
 
 The data in this file is used to investigate the cellular toxicity of nanoparticles at various concentrations.
 
-#### **4. Cellular Internalization Data:**
+#### **3. Cellular Internalization Data:**
 File's name: `Cellular internalization.csv`
 
 File's Columns:
@@ -83,7 +73,7 @@ File's Columns:
 
 The data in this file is used to examine the extent of nanoparticle entry into cells at different concentrations.
 
-#### **5. Serum Biochemical Assay Data:**
+#### **4. Serum Biochemical Assay Data:**
 File's name: `Serum biochemical assay.csv`
 
 File's Columns:
@@ -93,7 +83,7 @@ File's Columns:
 
 The data in this file is for evaluating and comparing the levels of liver enzymes between the control and treatment group
 
-#### **6. In vivo Biodistribution Data:**
+#### **5. In vivo Biodistribution Data:**
 File's name: `In vivo biodistribution.csv`
 
 File's Columns:
@@ -103,7 +93,7 @@ File's Columns:
 
 The data in this file is used to evaluate the dispersion of nanoparticles in different organs following their injection.
 
-#### **7. Temperature Measurement Study Data:**
+#### **6. Temperature Measurement Study Data:**
 File's name: `Temperature measurement study.csv`
 
 File's Columns:
@@ -117,7 +107,7 @@ File's Columns:
 
 The data in this file is used to investigate temperature changes following various treatment methods.
 
-#### **8. Tumor Volume Data:**
+#### **7. Tumor Volume Data:**
 File's name: `Tumor volume.csv`
 
 File's Columns:
@@ -136,7 +126,7 @@ File's Columns:
 
 The data in this file is intended for comparing tumor volume curves across different treatment groups to evaluate the effectiveness of treatments.
 
-#### **9. Survival Proportions Data:**
+#### **8. Survival Proportions Data:**
 File's name: `Survival proportions.csv`
 
 File's Columns:
@@ -146,7 +136,7 @@ File's Columns:
 
 The data in this file is for plotting Kaplan-Meier survival curves, illustrating the survival proportions over time for different treatment groups.
 
-#### **10. Western Blot Quantification Data:**
+#### **9. Western Blot Quantification Data:**
 File names: `Hsp70_actin.csv`, `VEGF_actin.csv`
 
 File's Columns: Control, JNPs+MF, AMF, NIR, RT, PMT, JNPs+MF+AMF, JNPs+MF+NIR, JNPs+MF+RT, JNPs+MF+PMT, JNPs+MF+RT+PMT: Each column represents the quantification of protein expression (Hsp70 or VEGF) normalized to beta-actin for a specific treatment group. Each group has three repeated measurements.
