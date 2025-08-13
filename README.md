@@ -14,6 +14,8 @@ In this project, we have studied and evaluated the effectiveness of Janus nanopa
 
 - `In vivo Biodistribution`: Understanding the distribution of nanoparticles within living organisms.
 
+- `MRI imaging`: Quantifying the MRI signal intensity to evaluate the effectiveness of magnetic targeting of nanoparticles.
+
 - `Temperature Measurement Studies`: Monitoring temperature changes under various experimental conditions.
 
 - `Tumor Volume Measurements`: Investigating the effect of nanoparticles on tumor growth.
@@ -58,10 +60,13 @@ The data in this file is used to examine the extent of red blood cell lysis upon
 File's name: `In vitro cytotoxicity assay.csv`
 
 File's Columns:
--	Nanoparticle Concentration (mg/ml): Concentration of nanoparticles in milligrams per milliliter.
--	Cell Viability1 (%), Cell Viability2 (%), Cell Viability3 (%): Cell viability percentages from three repetitions at each concentration.
+-	Nanoparticle Concentration: Concentration of nanoparticles.
+-	Viability_np1, Viability_np2, Viability_np3: Cell viability percentages for the nanoparticle-only group from three repetitions.
+-	Viability_np_amf1, Viability_np_amf2, Viability_np_amf3: Cell viability percentages for the nanoparticle + AMF group from three repetitions.
+-	Viability_np_nir1, Viability_np_nir2, Viability_np_nir3: Cell viability percentages for the nanoparticle + NIR group from three repetitions.
+-	Viability_np_amf_nir1, Viability_np_amf_nir2, Viability_np_amf_nir3: Cell viability percentages for the nanoparticle + AMF + NIR group from three repetitions.
 
-The data in this file is used to investigate the cellular toxicity of nanoparticles at various concentrations.
+The data in this file is used to investigate the cellular toxicity of nanoparticles at various concentrations and under different treatment conditions.
 
 #### **3. Cellular Internalization Data:**
 File's name: `Cellular internalization.csv`
@@ -87,13 +92,66 @@ The data in this file is for evaluating and comparing the levels of liver enzyme
 File's name: `In vivo biodistribution.csv`
 
 File's Columns:
--	Organ: Organ name (Heart, Right Lung, Left Lung, Spleen, Liver, Right Kidney, Left Kidney, Tumor).
--	Fe Concentration per Tissue1 (µg/g), Fe Concentration per Tissue2 (µg/g), Fe Concentration per Tissue3 (µg/g): Concentrations of iron (Fe) per tissue from three repetitions.
--	Au Concentration per Tissue1 (µg/g), Au Concentration per Tissue2 (µg/g), Au Concentration per Tissue3 (µg/g): Concentrations of gold (Au) per tissue from three repetitions.
+-	Organ: Name of the organ or tissue sample along with the time point.
+-	Fe concentration/tissue1 (µg/g), Fe concentration/tissue2 (µg/g), Fe concentration/tissue3 (µg/g): Iron concentrations measured in three replicates for each sample.
+-	Au concentration/tissue1 (µg/g), Au concentration/tissue2 (µg/g), Au concentration/tissue3 (µg/g): Gold concentrations measured in three replicates for each sample.
 
-The data in this file is used to evaluate the dispersion of nanoparticles in different organs following their injection.
+This dataset is used to analyze the biodistribution and magnetic targeting efficiency of the injected nanoparticles over different time intervals.
 
-#### **6. Temperature Measurement Study Data:**
+#### **6. MRI imaging:**
+File's name: `MRI.csv`
+
+File's Columns:
+-	Status indicator (Pre injection or Post injection).
+-	Right tumor1, Right tumor2, Right tumor3: Right tumor volume measurements from three repetitions.
+-	Left tumor1, Left tumor2, Left tumor3: Left tumor volume measurements from three repetitions.
+
+This data is used to measure and compare signal intensity before and after nanoparticle injection.
+
+#### **7. Specific Absorption Rate (SAR) Calculation:**
+File's name: `SAR.csv`
+
+File's Columns:
+-	Time(min): The time at which the temperature was recorded.
+-	Control1, Control2, Control3: Temperature measurements for the control group from three repetitions.
+-	C0.25_1, C0.25_2, C0.25_3: Temperature measurements with 0.25 mg/ml nanoparticle concentration from three repetitions.
+-	C0.5_1, C0.5_2, C0.5_3: Temperature measurements with 0.5 mg/ml nanoparticle concentration from three repetitions.
+-	C1_1, C1_2, C1_3: Temperature measurements with 1 mg/ml nanoparticle concentration from three repetitions.
+
+This data is used to analyze temperature changes and calculate the Specific Absorption Rate (SAR) of the nanoparticles at different concentrations under an alternating magnetic field (AMF).
+
+#### **8. In Vitro NIR Heating Data:**
+File's name: `NIR_in_vitro.csv`
+
+File's Columns:
+-	Time(min): The time at which the temperature was recorded.
+-	Control1, Control2, Control3: Temperature measurements for the control group from three repetitions.
+-	C50_1, C50_2, C50_3: Temperature measurements at 50 µg/ml nanoparticle concentration from three repetitions.
+-	C100_1, C100_2, C100_3: Temperature measurements at 100 µg/ml nanoparticle concentration from three repetitions.
+-	C200_1, C200_2, C200_3: Temperature measurements at 200 µg/ml nanoparticle concentration from three repetitions.
+-	C400_1, C400_2, C400_3: Temperature measurements at 400 µg/ml nanoparticle concentration from three repetitions.
+
+This data is used to investigate the temperature changes of nanoparticle solutions at various concentrations under NIR irradiation.
+
+#### **9. UV-Vis Spectroscopy Data:**
+File's name: `uv.csv`
+
+File's Columns:
+-	NANOMETERS: Wavelength in nanometers.
+-	ABSORBANCE: Absorbance value at each wavelength.
+
+This data is used to analyze the absorption spectrum of the nanoparticles in the UV-Vis range.
+
+#### **10. Photothermal Conversion Efficiency (PCE) Calculation:**
+File's name: `PCE.csv`
+
+File's Columns:
+-	Time(s): The time at which the temperature was recorded.
+-	C400_1, C400_2, C400_3: Temperature measurements at 400 µg/ml nanoparticle concentration from three repetitions.
+
+This data is used to calculate the Photothermal Conversion Efficiency (PCE) of the nanoparticles.
+
+#### **11. Temperature Measurement Study Data (in vivo):**
 File's name: `Temperature measurement study.csv`
 
 File's Columns:
@@ -107,7 +165,7 @@ File's Columns:
 
 The data in this file is used to investigate temperature changes following various treatment methods.
 
-#### **7. Tumor Volume Data:**
+#### **12. Tumor Volume Data:**
 File's name: `Tumor volume.csv`
 
 File's Columns:
@@ -126,7 +184,7 @@ File's Columns:
 
 The data in this file is intended for comparing tumor volume curves across different treatment groups to evaluate the effectiveness of treatments.
 
-#### **8. Survival Proportions Data:**
+#### **13. Survival Proportions Data:**
 File's name: `Survival proportions.csv`
 
 File's Columns:
@@ -136,7 +194,7 @@ File's Columns:
 
 The data in this file is for plotting Kaplan-Meier survival curves, illustrating the survival proportions over time for different treatment groups.
 
-#### **9. Western Blot Quantification Data:**
+#### **14. Western Blot Quantification Data:**
 File names: `Hsp70_actin.csv`, `VEGF_actin.csv`
 
 File's Columns: Control, JNPs+MF, AMF, NIR, RT, PMT, JNPs+MF+AMF, JNPs+MF+NIR, JNPs+MF+RT, JNPs+MF+PMT, JNPs+MF+RT+PMT: Each column represents the quantification of protein expression (Hsp70 or VEGF) normalized to beta-actin for a specific treatment group. Each group has three repeated measurements.
