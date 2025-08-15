@@ -4,6 +4,8 @@ In this project, we have studied and evaluated the effectiveness of Janus nanopa
 
 ## Experimental Analyses Covered:
 
+- `Nanoparticle Stability Analysis`: Assessment of the stability of the synthesized nanoparticles over a four-week period.
+
 - `Hemolytic Toxicity`: Assessing the potential toxicity of nanoparticles on blood cells.
 
 - `In vitro Cytotoxicity Assays`: Evaluating the impact of nanoparticles on cell viability.
@@ -46,6 +48,24 @@ File names with their respective extensions have been provided for data reading.
 
 ## Data Description
 We've got our data neatly saved in CSV files, all set for analysis. Each file comes with clear instructions on how to use them for our studies.
+
+#### **1. Nanoparticle Stability Data:**
+
+This section includes two data files used to evaluate the long-term stability of Janus nanoparticles (JNPs) by tracking changes in their size and zeta potential over four weeks.
+
+Nanoparticle Size Stability
+File's name: `Stability_size.csv`
+
+File's Columns:
+-	Columns: week1, week2, week3, week4
+
+Nanoparticle Zeta Stability
+File's name: `Stability_zeta.csv`
+
+File's Columns:
+-	Columns: week1, week2, week3, week4
+
+Description: Each week, three repeated measurements were taken and entered into the corresponding column.
 
 #### **1. Hemolytic Toxicity Data:**
 File's name: `Hemolytic toxicity.csv`
